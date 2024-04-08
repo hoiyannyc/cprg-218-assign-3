@@ -1,0 +1,199 @@
+.main-header-contact {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button {
+  background-color: rgb(255, 242, 0);
+  color: black;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 14px;
+  padding: 12px 24px;
+  border: none;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: lightyellow;
+}
+
+/* Hero image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url("https://images.unsplash.com/photo-1545431613-51ec097943c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 100px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* About Styles */
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px;
+  width: 940px;
+}
+
+.main-category-title {
+  text-align: center;
+  color: rgb(54, 54, 54);
+  line-height: 12px;
+}
+
+.about-container {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.about-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.about-left {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* About cards Styles */
+.about-cards {
+  display: grid;
+  justify-content: center;
+  gap: 20px; 
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 28px;
+}
+
+.about-cards img {
+  border-radius: 14px 14px 0px 0px;
+  height: auto;
+  width: 100%;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 14px;
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem;
+  line-height: 2rem;
+}
+
+/* Testimonials Styles */
+iframe {
+  border-radius: 14px;
+  width: 100%;
+  padding-top: 5px;
+  border: none;
+}
+
+/* Accordion Styles */
+.main-accordion {
+  width: 100%;
+  max-width: 940px;
+  background-color: white;
+  padding: 2em;
+  border-radius: 10px;
+}
+  
+.main-accordion-item {
+  margin-bottom: 10px;
+}
+  
+.accordion-header {
+  padding: 10px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+  
+.accordion-content {
+  padding: 5px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  color: black;
+}
+  
+.active .accordion-content {
+  max-height: 100px; 
+}
+  
+.active .arrow { 
+  transform: rotate(180deg);
+}
+
+/* Footer Styles */
+.main-footer-container {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  padding: 20px 40px;
+  border-radius: 14px;
+}
+
+.main-footer-wrapper {
+  display: flex;
+}
+
+.main-footer-left {
+  width: 20%;
+}
+
+.main-footer-right {
+  width: auto;
+  flex: 1 1 0;
+}
+
+.main-footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  grid-column-gap: 14px;
+  text-align: center;
+}
+
+.main-footer-list {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-logo {
+  padding: 10px 0px;
+}
+
+.footer-logo:hover {
+  opacity: 0.5;
+}
